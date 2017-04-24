@@ -1,8 +1,8 @@
 #!/bin/sh
 # chkconfig: 2345 99 01
 # description: SoftEther VPN Server
-DAEMON=/usr/bin/vpnserver
-LOCK=/var/lock/subsys/vpnserver
+DAEMON=/usr/bin/vpnclient
+LOCK=/var/lock/subsys/vpnclient
 test -x $DAEMON || exit 0
 case "$1" in
      start)
